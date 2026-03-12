@@ -43,10 +43,10 @@ Cypher thinks in paths, patterns and tranversals
     - **Cypher®** is Neo4j’s declarative graph query language. Graph Connectors and Integrations [here](https://neo4j.com/product/connectors/?utm_source=GSearch&utm_medium=PaidSearch&utm_campaign=CTAMER_CRSearch_SRNAWest_Non-Brand_DSA&utm_content=PCCoreDB_SCAura_Product&utm_term=&gad_source=1&gad_campaignid=20973570604&gbraid=0AAAAADk9OYru0-tsthdDN5YKtZiLRM8GK&gclid=CjwKCAjwyMnNBhBNEiwA-KcguzXD2M5NcFVn2WTOV6soHU-nlB8pECWDf_dhJUXCpJCOxN7efgxwHxoCzZwQAvD_BwE).
 
     - Intelligence platform: 
-        - Data Layer: 
-        - Knowledge Layer: 
-        - Retrieval Layer: 
-        - Agent Layer: 
+        - Data Layer:  is a structured, often JavaScript-based, repository used to collect, store, and share information between a website/app and third-party tools like analytics or marketing platforms
+        - Knowledge Layer: is a unified, metadata-driven architectural layer that sits between raw data sources (databases, documents) and AI applications or business users
+        - Retrieval Layer: in AI (specifically within Retrieval-Augmented Generation or RAG) is the specialized, intermediate component of a system that fetches relevant, up-to-date, or proprietary data from external sources and feeds it to a Large Language Model (LLM) before a response is generated
+        - Agent Layer: is a functional component within the AI application stack that houses individual, specialized AI agents designed to execute specific tasks
 
 ## Contact:
 <!--- You can add in your linkedin, medium, stack overflow, dev.to account, etc. here --->
