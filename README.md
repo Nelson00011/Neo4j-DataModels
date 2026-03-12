@@ -7,7 +7,22 @@
 
 ## Notes:
 #### Ryan Knight | [Neo4j](link)
-- Generation information from the speaker here
+- Sr Partner Architect, Neo4j
+- Node Counts match source row counts. Relationship counts fall within expected, range for transaction volume. High-connectivity nodes reflect known patterns from source data. 
+- Cycle Detection: fraud ring flags in the alerts table. pageRank: risk scores for investigation prioritization. 
+- Community Detection: fraud ring groupings via Louvain.
+- Degree Centrality: counterpart counts as ML Features
+- Hallucination: plausible answers with no grounding in your data
+- An LLM reads each chunks and extracts entities: regulations, thresholds, procedures
+- GraphRAG: Graph-Enriched Retrieval. GraphRAG reaches graph data: grounded answers with entities and relatoinships from the konwledge graph
+- Lakehouse holds the rest: transactions volumes, aggregations, trends in Delta Tables
+- GraphRag can't computer SQL
+- Context Window pollution: two schemas, two query languages, and two sets of conventions in one prompt dilutes focus
+- Narrow Scope: an agent that only knows about graph strucutre writes graph queries; an agent that knows about both starts mixing them up
+- Different reasoning patterns: SQL thinks in rows, filter, and aggregations: 
+Cypher thinks in paths, patterns and tranversals
+- Reliability: a generalist agent produces queirst that mix idioms. 
+
 
 #### Will Jeffery | [Neo4j](link)
 - Sr Solution Architect, Databricks
@@ -19,9 +34,8 @@
 
 
 ## Resources:
-- Blackbird.AI is focusing on Kursk Incursion (2024):
-    - **Compass Context** to verify and contextualize the information you see [online](https://blackbird.ai/compass-context/)
-
+- Neo4 has a document overview for [Cypher](https://neo4j.com/docs/cypher-manual/current/introduction/cypher-overview/):
+    - **Cypher®** is Neo4j’s declarative graph query language. Graph Connectors and Integrations [here](https://neo4j.com/product/connectors/?utm_source=GSearch&utm_medium=PaidSearch&utm_campaign=CTAMER_CRSearch_SRNAWest_Non-Brand_DSA&utm_content=PCCoreDB_SCAura_Product&utm_term=&gad_source=1&gad_campaignid=20973570604&gbraid=0AAAAADk9OYru0-tsthdDN5YKtZiLRM8GK&gclid=CjwKCAjwyMnNBhBNEiwA-KcguzXD2M5NcFVn2WTOV6soHU-nlB8pECWDf_dhJUXCpJCOxN7efgxwHxoCzZwQAvD_BwE).
 
 ## Contact:
 <!--- You can add in your linkedin, medium, stack overflow, dev.to account, etc. here --->
