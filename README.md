@@ -3,10 +3,11 @@
 <p align="center"><a href="https://www.bigmarker.com/neo4j/the-foundation-architecting-a-scalable-graph-layer-on-databricks?bmid=abd4eb06bbf5"><img src="Neo4j-DataModels-Images.jpg"></img></a></p>
 
 ## Description:
-**The Foundation: Architecting a Scalable Graph Layer on Databricks:** Graphs are critical for understanding complex relationships, but building one from a Lakehouse requires more than just a script. In this session, we show how to architect a scalable graph layer using the Neo4j Spark Connector. Using a financial fraud use case, we demonstrate how to transform Databricks Bronze and Silver tables into a high-performance Neo4j graph model, setting the foundation for advanced analytics, feature engineering, and downstream AI workloads
+**The Foundation: Architecting a Scalable Graph Layer on Databricks** 
+Graphs are critical for understanding complex relationships, but building one from a Lakehouse requires more than just a script. In this session, we show how to architect a scalable graph layer using the Neo4j Spark Connector. Using a financial fraud use case, we demonstrate how to transform Databricks Bronze and Silver tables into a high-performance Neo4j graph model, setting the foundation for advanced analytics, feature engineering, and downstream AI workloads
 
 ## Notes:
-#### Ryan Knight | [Neo4j](link)
+#### Ryan Knight | [Neo4j](https://www.linkedin.com/in/ryanknight/)
 - Sr Partner Architect, Neo4j
 - Node Counts match source row counts. Relationship counts fall within expected, range for transaction volume. High-connectivity nodes reflect known patterns from source data. 
 - Cycle Detection: fraud ring flags in the alerts table. pageRank: risk scores for investigation prioritization. 
@@ -24,13 +25,17 @@ Cypher thinks in paths, patterns and tranversals
 - Reliability: a generalist agent produces queirst that mix idioms. 
 
 
-#### Will Jeffery | [Neo4j](link)
+#### Will Jeffery | [Neo4j](https://www.linkedin.com/in/william-jeffery-2b010561/)
 - Sr Solution Architect, Databricks
-- Information here
 
-#### Shyam Kathiresan | [Neo4j](link)
+#### Shyam Kathiresan | [Neo4j](https://www.linkedin.com/in/shyam-kathiresan-7964571/)
 - Global Cloud Partnership Director
-- 
+
+## [Upcoming Events](https://go.neo4j.com/WBR-EDU-260312-Graph-Intelligence-on-Databricks-Webinar-Series_01.Registration.html):
+- WEBINAR 2 — Enrichment
+    - Graph-Augmented Intelligence: Feature Engineering with Neo4j and Databricks
+- WEBINAR 3 — The AI Agent
+    - Agentic GraphRAG: Orchestrating Neo4j Context via Databricks and MCP
 
 
 ## Resources:
