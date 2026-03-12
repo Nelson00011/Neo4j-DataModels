@@ -34,7 +34,7 @@ Cypher thinks in paths, patterns and tranversals
 ## Upcoming Events:
 - WEBINAR 2 — [Enrichment](https://go.neo4j.com/WBR-EDU-260312-Graph-Intelligence-on-Databricks-Webinar-Series_01.Registration.html)
     - Graph-Augmented Intelligence: Feature Engineering with Neo4j and Databricks
-- WEBINAR 3 — [The AI Agent]((https://go.neo4j.com/WBR-EDU-260312-Graph-Intelligence-on-Databricks-Webinar-Series_01.Registration.html))
+- WEBINAR 3 — [The AI Agent](https://go.neo4j.com/WBR-EDU-260312-Graph-Intelligence-on-Databricks-Webinar-Series_01.Registration.html)
     - Agentic GraphRAG: Orchestrating Neo4j Context via Databricks and MCP
 
 
